@@ -74,3 +74,7 @@ typings/
 
 # FuseBox cache
 .fusebox/
+artificial-neurons/__pycache__/dataloader.cpython-38.pyc
+artificial-neurons/.ipynb_checkpoints/3d Plot-checkpoint.ipynb
+artificial-neurons/.ipynb_checkpoints/dataloader-checkpoint.ipynb
+artificial-neurons/.ipynb_checkpoints/Neural-Network-Digit-Classifier-checkpoint.ipynb
