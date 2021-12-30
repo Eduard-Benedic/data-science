@@ -34,3 +34,29 @@ $$ RSS(\beta) = (y - \mathbf{X} \beta)^T(y - \mathbf{X}\beta) $$
 
 # 2.3.2 Neaerest-Neighbor Methods
 
+The K-Nearest-neighbor fit for $ \hat{Y} $ is:
+
+$$ \hat{Y}(x) = \frac{1}{k} \sum_{x_i \epsilon N_k(x)} y_i $$
+
+# Statistical Decision Theory
+
+A bunch of numbers belonging to the real numbers space. E.g [10, 20, 40, 23.33, 12.2]
+$$ X \epsilon \Bbb{R}^p $$
+
+Output: Same as above
+$$ Y \epsilon \Bbb{R}^p $$
+
+We seek a function $ f(X) $ for predicting $ Y $ given values of the input $ X $.
+
+To quantify that we use a $ Loss Function $
+
+$$ L(Y, f(X)) $$
+
+The function is useful for penalizing errors in prediction.
+One of the most common Loss functions is **Squared Error Loss**
+
+$$ L(Y, f(X)) = (Y - f(X))^2 $$
+
+Joint distribution - 
+
+Stucked - on the 
