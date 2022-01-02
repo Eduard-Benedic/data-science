@@ -164,10 +164,17 @@ $$
   E[(X - \mu)^3] = \sum_{x \epsilon D}(x - \mu)^3 \cdot p(x)
 $$
 
-This measure can be used for a lack of assymetry. However we want a scale independence results. Divide everything by:
+This measure can be used for a lack of assymetry. However we want scale independence results. Divide everything by:
 
 $$
   \frac{E[(X - \mu)^3]}{\sigma^3} = E[(\frac{X - \mu}{\sigma})^3]
 $$
 
 Departure from symmetry - skewness.
+
+### Moment generating function
+
+When we consider the expected value as a function of $t$, the result is called the moment generatig function (mgf).
+
+$$ M_X(t) = E(e^{t X}) = \sum_{x \epsilon D}  e^{t \cdot x}p(x)$$
+Where D is the set of all possible values for $X$.
