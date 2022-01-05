@@ -178,3 +178,9 @@ When we consider the expected value as a function of $t$, the result is called t
 
 $$ M_X(t) = E(e^{t X}) = \sum_{x \epsilon D}  e^{t \cdot x}p(x)$$
 Where D is the set of all possible values for $X$.
+
+Higher order moments
+
+1.
+
+$$ \frac{\sum x }{n} $$
