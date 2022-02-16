@@ -1,8 +1,14 @@
 # The Internet
 
-Glosary
+Socket interface - each computer has a socket interface
+
+## What is a Protocol ?
+
+A way of organizing message before delivery
 
 
+
+### Glosary
 **Hosts & End systems** - latptop, tablet (devices) that connect to internet
 **Communication links and Packet switches** - connect end systems together
 **Packets** - data to be sent
